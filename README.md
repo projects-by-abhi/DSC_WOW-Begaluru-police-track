@@ -12,5 +12,7 @@ future scope :- Integrating Ai to check if the links is indeed malicious and mig
 ========================Desc aout each file===================================
 
 1.start.sh -> bash shell script that will install the starting requirements and will start the service  
-2.linex.py -> link extractor , will gather all the links from the given url  
-3.word_crawler.py -> would look out for specific keywords in the websites crawled before. If they are found ,then it will cause an alert! 
+2.prim1ex.py -> link extractor , will gather all the links from the given url  
+3.word_crawler.py -> would look out for specific keywords in the websites crawled before. If they are found ,then it will cause an alert!
+4. list.txt -> the local dtaabase for the extractor to store the found links 
+
