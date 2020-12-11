@@ -7,3 +7,10 @@ A bot will search for illegal fileds and cause a red alert.(partially dealt with
 Still needs to be more automated though
 
 future scope :- Integrating Ai to check if the links is indeed malicious and might contain illegal trasaction, to give more precise result.
+
+
+========================Desc aout each file===================================
+
+1.start.sh -> bash shell script that will install the starting requirements and will start the service  
+2.linex.py -> link extractor , will gather all teh links from the given url  
+3.
