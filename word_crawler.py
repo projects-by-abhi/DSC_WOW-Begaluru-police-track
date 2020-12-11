@@ -43,7 +43,7 @@ def findkeywordlvl(strwebsiteinp, strmatch, queueget):
 
 strWebsite = input("Enter website (Format http://domain.com):\n")
 strKeyword = input("Enter keyword to search for:\n")
-intLevel = int(input("Select levels to scan. Choose 1, 2 or 3 - 3 might contain errors:\n"))
+intLevel = 2
 filename = strWebsite[7:len(strWebsite)] + " positives.log"
 filename2 = strWebsite[7:len(strWebsite)] + " errors.log"
 strFile = open(filename, 'w')
