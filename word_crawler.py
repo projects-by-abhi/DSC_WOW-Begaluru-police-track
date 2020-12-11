@@ -1,6 +1,5 @@
 #Python 3.x
 #Website keyword crawler v1.1
-#Created by rickvg @ https://github.com/rickvg
 
 import urllib.request
 import re
