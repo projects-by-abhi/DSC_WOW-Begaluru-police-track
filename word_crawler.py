@@ -47,7 +47,8 @@ alerter = open('alerts.txt', 'a+')
 
 while True:
 
-    strWebsite = linkex.readline().strip    #extracts the links from the file 
+    l = linkex.readline()
+    strWebsite = l.strip()    #extracts the links from the file 
     if not strWebsite: 
         break
     filename = strWebsite[7:len(strWebsite)] + " positives.log"
